@@ -14,12 +14,6 @@ Invoke-WebRequest -Uri https://golang.org/dl/go1.17.2.windows-amd64.msi -OutFile
 Start-Process msiexec.exe -Wait -ArgumentList "/i go.msi /qn ADDEXPLORERCONTEXT=1"
 Remove-Item go.msi
 
-🚀 Casting the Spell
-Clone the enchanted repository and cast the spell to run the main program.
-git clone https://github.com/your-username/yoongishkarrr-bank.git
-cd yoongishkarrr-bank
-go run main.go
-
 Features ✨
 Currency conversion with the power of ancient exchange rates.
 Input validation to ensure precise spellcasting.
