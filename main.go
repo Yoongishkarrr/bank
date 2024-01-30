@@ -35,7 +35,7 @@ func main() {
 		var cur string
 		fmt.Scan(&cur)
 
-		fmt.Println("Enter the sum of conversion in sum: ")
+		fmt.Println("Enter the sum of conversion: ")
 		var num float32
 		fmt.Scan(&num)
 
@@ -56,6 +56,8 @@ func main() {
 			} else {
 				fmt.Println("Invalid Currency!")
 			}
+			var remainingAmount = float32(amt) - num
+			fmt.Printf("\nRemaining Amount is %f \n", remainingAmount)
 		}
 	}
 	fmt.Println("Thank you  for using our service!")
