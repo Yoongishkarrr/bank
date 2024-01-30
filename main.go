@@ -56,9 +56,9 @@ func main() {
 			} else {
 				fmt.Println("Invalid Currency!")
 			}
-			var remainingAmount = float32(amt) - num
-			fmt.Printf("\nRemaining Amount is %f \n", remainingAmount)
 		}
+		var remainingAmount = float32(amt) - num
+		fmt.Printf("\nRemaining Amount is %f \n", remainingAmount)
 	}
 	fmt.Println("Thank you  for using our service!")
 	time.Sleep(4 * time.Second)
