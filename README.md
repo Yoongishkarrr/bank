@@ -8,12 +8,6 @@ Welcome to the enchanted world of Yoongishkarrr's bank! 🏰✨ This whimsical G
 
 To embark on this magical adventure, ensure you have Go installed on your spellbinding device.
 
-```bash
-# Install Go on Windows (Conjure it with these enchantments)
-Invoke-WebRequest -Uri https://golang.org/dl/go1.17.2.windows-amd64.msi -OutFile go.msi
-Start-Process msiexec.exe -Wait -ArgumentList "/i go.msi /qn ADDEXPLORERCONTEXT=1"
-Remove-Item go.msi
-
 Features ✨
 Currency conversion with the power of ancient exchange rates.
 Input validation to ensure precise spellcasting.
