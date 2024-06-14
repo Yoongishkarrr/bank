@@ -8,7 +8,7 @@ import (
 )
 
 func clearScreen() {
-	cmd := exec.Command("clear") // for Linux/macOS
+	cmd := exec.Command("clear") 
 	cmd.Stdout = os.Stdout	
 	cmd.Run()
 }
